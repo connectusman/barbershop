@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'SignPainter HouseScript';
+    src: url('./HouseScript.ttf');
+  }
+
+ 
+
+ 
+/** AppLogo **/
+
+.applogo{
+    font-family: 'SignPainter HouseScript';
+    font-size: 4.06rem;
+   
+}
+
+.marginlr20{
+  margin-bottom: 0px;
+  margin-top:1.25rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+.marginlr50{
+  margin-bottom: 0px;
+  margin-top:1.25rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+.dividerline{
+    height: 1px;
+    background-color: #aaa;
+}
+.textmargin{
+margin-left:1.25rem;
+
+}
+.btnMargin{
+    margin-top: 0%;
+}
+.imgmargin{
+    margin-top:0.3rem;
+    margin-bottom: 1px;
+}
+.segstyle
+{
+  background-color: ivory;
+  height: 3.1rem;
+  width: 50%;
+}
+.dividerline-cen{
+    height: 1px;
+    background-color: #aaa;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 2.3rem;
+    margin-bottom: 1.25rem;
+}
+.homeimglogo{
+  width: 12.5rem;
+  height:12.5rem;
+  margin: 0.625rem;
+}
+.margin20{
+  margin:1.25rem;
+}
+.shopreg{
+  color: #ccc;
+  position: fixed;
+  font-size: large;
+  font-weight: bold;
+  justify-content: center;
+  bottom: 12.5rem;
+}
+
+.aligncenter{
+    justify-content: center;
+    
+}
+.aligntextcenter{
+  text-align: center;
+}
+.aligntextleft{
+  text-align: left;
+}
+.aligntextright{
+  text-align: right;
+}
+.iconsize{
+  width: 12.5rem;
+  height: 12.5rem;
+}
+.margin30{
+  margin: 1.87rem;
+}
+
+  
+  .margindown5{
+    margin-bottom: 0.3rem;
+  }
+  .margin5{
+    margin: 0.3rem;
+  }
+  .homelogo{
+  font-size: 1.25rem;
+ 
+}
+  
+  
+.homeimglogo{
+  width: 12.5rem;
+  height:12.5rem;
+  margin: 0.625rem;
+}
+.margin20{
+  margin:1.25rem;
+}
+.shopreg{
+  color: #ccc;
+  position: fixed;
+  justify-content: center;
+  bottom: 2.5rem;
+}
+.coverimgsize
+{
+  height:11.25rem;
+  width: 100%;
+}
+
+.colorwhite{
+  color: white;
+}
+  .colorwhiteitem{
+    --ion-item-background:#fff;
+    
+    color: black;
+  }
+ 
+
+  
+  .profile{
+   margin-top: 0.625rem;
+   height: 11.87rem;
+   width:11.87rem;
+ }
+ .margin10{
+   margin-top:1.87rem;
+   
+ }
+ .margin_header{
+   margin-top: 0.625rem;
+ }
+ .divmargn{
+   margin: 3.1rem;
+ }
+ .tabcolor{
+  --color: #dddddd;
+  --background:#1d1f22;
+  --color-selected:#dddddd;
+  height: 5rem;
+}
+.alert-wrapper.sc-ion-alert-ios
+{
+  background: #000;
+}
+.tabbuttoncolor
+{
+  color: white;
+}
+ .buttong{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 1.12rem;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+ 
+ }
+ .button1{
+  background-color: black;
+  color: crimson;
+  cursor: pointer;
+  padding: 1.12rem;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+ 
+ }
+ .button2{
+  background-color:white;
+  color:black;
+  cursor: pointer;
+  padding: 1.12rem;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.25rem;
+ } 
+ .padingm{
+
+  padding-bottom: 1.87rem;
+  padding-top: 0%;
+
+ 
+ }
+
+ 
+ .margin0{
+   padding:0px;
+   margin:0px;
+ }
+ .div1{
+   background-color: white;
+   color: black;
+   width: 100%;
+   padding: 1.12rem;
+   font-weight: bold;
+   
+ }
+ .makeflex{
+   display: flex;
+   padding-left: 1.25rem;
+   padding-right: 1.25rem;
+   color: black;
+   background-color: white;
+   flex-direction: row;
+ }
+ .counterright{
+  flex-grow: 0;
+ }
+ .counterleft{
+  flex-grow: 7;
+ }
+ .float-right{
+   float: right;
+ }
+ .floatlefty{
+  float: left;
+
+}
+
+.accordion {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+
+
+.panel {
+  width: 100%;
+  margin: 0.3rem;
+  color: #ffffff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.accordion2 {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+
+
+.panel2 {
+  width: 100%;
+  margin: 0.3rem;
+  color: #ffffff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.floatrighty{
+  text-align: right;
+
+}
+
+ .floatright{
+  right: 0.625rem;
+  position: fixed;
+}
+.floatleft{
+ left: 0.625rem;
+ position: fixed;
+}
+ 
+ .bottom1{
+  position:fixed;
+  bottom: 14.37rem;
+}
+  
+  
+  .my-label {
+    font-size: 1.5em;
+  }
+  
+  
+
+  .buttong1{
+    background-color: black;
+    color: #eee;
+    cursor: pointer;
+    padding: 1.12rem;
+    width: 80%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+   
+   }
+   .buttonmedium
+   {
+     width: 50%;
+   }
+   .bigfont{
+     font-size: x-large;
+     font-weight: 700;
+   }
+   
+   .buttong2{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 1.12rem;
+    width: 75%;
+    margin-left: 2.5rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+   
+   }
+   .dividerline-cen1{
+    height: 1px;
+    background-color: #fff;
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 20%;
+    margin-top: 0.625rem;
+    margin-bottom: 1px;
+}
+.p-size{
+  padding-left: 0px;
+  margin-top: 2%;
+  font-size: 1.25rem;
+}
+.p-size2{
+  
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.p-size3{
+  padding-left: 0px;
+  margin-top: 0%;
+  font-size: 1.56rem;
+  font-weight: bold;
+}
+.p-size4{
+  padding-left: 0px;
+  font-weight: bold;
+}
+.p-sizemy{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1.25rem;
+}
+.p-sizemy2{
+  font-size: 1.375rem;
+  margin-left: 1.25rem;
+  font-weight: bold;
+}
+.p-sizemy3{
+  font-size: 1.25rem;
+  margin-left: 1.25rem;
+  font-weight: bold;
+}
+.p-sizemy4{
+  font-size: 1.15rem;
+  margin-left: 1.25rem;
+  font-weight: bold;
+}
+.btnpressed{
+  --background: #ddd;
+}
+
+.margin-bottom1{
+  margin-bottom: 20%;
+}
+.margin-top1{
+  margin-top: 10%;
+}
+
+.bgcolrwhite{
+  background-color: white;
+  color: #000;
+  
+}
+.pdingall{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.boldtext{
+  font-weight: bold;
+}
+.colorred{
+  color: red;
+}
+.nomargin{
+  
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.lpadding{
+  padding-bottom: 0.625rem;
+}
+
+.my-ion-list {
+  max-height: 6.25rem;
+}
