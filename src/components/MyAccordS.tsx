@@ -49,7 +49,6 @@ const [mydown, setMydown] = useState(caretDown);
 
 <IonList className="panel" >
 <div style={{"textAlign":"center"}}>{data}</div>
-        
       </IonList>
     </IonRow>
   );
